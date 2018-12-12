@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="354.0" prefWidth="469.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainControler">
+   <children>
+      <Button layoutX="-162.0" layoutY="-107.0" mnemonicParsing="false" text="Button" />
+      <ImageView fitHeight="255.0" fitWidth="237.0" layoutX="233.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+      <Image url="img/vlc-player-logo.png" />
+      </image>
+      </ImageView>
+      <TextField fx:id="usertxt" layoutX="42.0" layoutY="58.0" promptText="Username" />
+      <PasswordField fx:id="userpass" layoutX="42.0" layoutY="105.0" promptText="Password" />
+      <Button layoutX="59.0" layoutY="172.0" mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="129.0" text="Login" />
+      <Label fx:id="lbl" layoutX="43.0" layoutY="14.0" prefHeight="17.0" prefWidth="149.0" text="Welcome to Midea Player" />
+      <Button layoutX="63.0" layoutY="289.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="129.0" text="Register" />
+      <ImageView fitHeight="79.0" fitWidth="70.0" layoutX="235.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+      <Image url="img/images.jpe" />
+      </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="73.0" layoutX="345.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+      <Image url="img/images (1).jpe" />
+      </image>
+      </ImageView>
+   </children>
+</AnchorPane>
